@@ -264,8 +264,8 @@ if st.button("Generar Análisis"):
         # Configurar diseño del gráfico de radar
         radar_fig.update_layout(
             polar=dict(
-                radialaxis=dict(visible=False,
-                               autorange=True
+                radialaxis=dict(visible=True,
+                               #autorange=True
                                )
                 
             ),
